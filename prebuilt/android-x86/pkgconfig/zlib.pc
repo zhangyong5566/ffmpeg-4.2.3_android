@@ -1,0 +1,12 @@
+prefix=/home/zhangyong/ffmpeg-4.2.3/android-ndk-r21-linux-x86_64/android-ndk-r21/toolchains/llvm/prebuilt//sysroot/usr
+exec_prefix=${prefix}
+libdir=/home/zhangyong/ffmpeg-4.2.3/android-ndk-r21-linux-x86_64/android-ndk-r21/platforms/android-16/arch-/usr/lib
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 
+
+Requires:
+Libs: -L${libdir} -lz
+Cflags: -I${includedir}

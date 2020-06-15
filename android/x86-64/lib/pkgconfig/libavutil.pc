@@ -1,0 +1,14 @@
+prefix=/home/zhangyong/ffmpeg-4.2.3/android/x86-64
+exec_prefix=${prefix}
+libdir=/home/zhangyong/ffmpeg-4.2.3/android/x86-64/lib
+includedir=/home/zhangyong/ffmpeg-4.2.3/android/x86-64/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.31.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}

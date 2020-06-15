@@ -1,0 +1,20 @@
+
+INFO: Using Android NDK v provided at 
+
+INFO: Build options: 
+
+fatal: 不是一个 git 仓库（或者任何父目录）：.git
+cp: 无法获取'/home/zhangyong/ffmpeg-4.2.3/tools/ndk/Android.mk' 的文件状态(stat): 没有那个文件或目录
+cp: 无法获取'/home/zhangyong/ffmpeg-4.2.3/tools/release/android/build.gradle' 的文件状态(stat): 没有那个文件或目录
+INFO: Disabled arm-v7a architecture which is not included in Main releases.
+
+
+INFO: Using Android NDK v21.0.6113669 provided at /home/zhangyong/ffmpeg-4.2.3/android-ndk-r21-linux-x86_64/android-ndk-r21
+
+INFO: Build options: 
+
+fatal: 不是一个 git 仓库（或者任何父目录）：.git
+cp: 无法获取'/home/zhangyong/ffmpeg-4.2.3/tools/ndk/Android.mk' 的文件状态(stat): 没有那个文件或目录
+cp: 无法获取'/home/zhangyong/ffmpeg-4.2.3/tools/release/android/build.gradle' 的文件状态(stat): 没有那个文件或目录
+INFO: Disabled arm-v7a architecture which is not included in Main releases.
+
